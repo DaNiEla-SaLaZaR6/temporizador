@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-image: url(https://images.pexels.com/photos/1095601/pexels-photo-1095601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+   
+    height: 80%;
+    width: 50%;
+    background-color:rgba(245, 240, 236, 0.445);
+    border: honeydew solid;
+    border-radius: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: rgb(231, 223, 217);
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+input{
+    height: 10%;
+    width: 30%;
+    font-size: 30px;
+    text-align: center; 
+    border: rgb(235, 227, 222) solid;
+    color: aliceblue;
+    background-color: rgba(139, 69, 19, 0.295);
+}
+.boton{
+    margin-top: 5%;
+    height: 15%;
+    width: 15%;   
+}
+.boton2{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(231, 225, 219);
+    font-size: 30px;
+    color: saddlebrown;
+
+}
+.boton2:hover{
+    background-color: rgba(139, 69, 19, 0.226);
+    color: aliceblue;
+    border: solid rgb(235, 230, 226);
+}
+.respuesta{
+    height: 13%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(139, 69, 19, 0.575);
+    color: aliceblue;
+    border-radius: 5%;
+    margin-top: 8%;
+    font-size: 30px;
+}
+
